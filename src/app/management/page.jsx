@@ -1,5 +1,6 @@
 import React from "react";
-import Anime from "../../components/Anime";
+import Anime from "@/components/Anime";
+import { getAllDocuments } from "@/utils/firebaseUtils";
 
 const ManagementPage = () => {
   return (
