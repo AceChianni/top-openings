@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { register } from "../utils/authUtils";
 
 const RegisterForm = () => {
   const [email, setEmail] = useState("");

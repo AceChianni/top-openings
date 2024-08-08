@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import { addAnimeOpening } from "../utils/firebaseUtils";
+// import React, { useState } from "react";
+// import { addAnimeOpening } from "../utils/firebaseUtils";
 
 const AddAnimeForm = ({ user, refreshOpenings }) => {
   const [title, setTitle] = useState("");

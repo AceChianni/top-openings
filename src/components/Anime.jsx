@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { getAnimeOpenings, deleteAnimeOpening } from "../utils/firebaseUtils";
-import AddAnimeForm from "./AddAnimeForm";
+// import React, { useEffect, useState } from "react";
+// import { getAnimeOpenings, deleteAnimeOpening } from "../utils/firebaseUtils";
+// import AddAnimeForm from "./AddAnimeForm";
 
 const Anime = ({ user }) => {
   const [openings, setOpenings] = useState([]);
