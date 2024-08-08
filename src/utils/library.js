@@ -1,4 +1,4 @@
-class AnimeOpening {
+class AnimeOpenings {
   constructor(title, artist, anime, userId) {
     this.title = title;
     this.artist = artist;
@@ -8,7 +8,8 @@ class AnimeOpening {
 }
 
 class Library {
-  constructor(name, openings) {
+  constructor(name, openings = []) {
+    // Default to an empty array
     this.name = name;
     this.openings = openings;
   }
@@ -44,4 +45,4 @@ class Library {
   }
 }
 
-export { AnimeOpening, Library };
+export { AnimeOpenings, Library };
