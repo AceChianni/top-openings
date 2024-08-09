@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { AnimeOpening } from "@/utils/library";
-import { addDocument } from "@/utils/firebaseUtils";
 
 export default function AnimeOpenings({
   id,
@@ -37,6 +36,15 @@ export default function AnimeOpenings({
     setUpdatedAnimeOpening(newAnimeOpening);
 
     updateAnimeOpening(newAnimeOpening);
+
+    // Clear the input fields by resetting the state
+    setUpdatedAnimeOpening({
+      title: "",
+      artist: "",
+      anime: "",
+      rank: "",
+    });
+
     setIsEditing(false);
   }
 
