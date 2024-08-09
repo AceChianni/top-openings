@@ -117,6 +117,79 @@ export default function AnimeOpenings({
           </button>
         </form>
       ) : (
+        // <form
+        //   onSubmit={handleUpdateFormSubmit}
+        //   className="flex justify-between w-full"
+        // >
+        //   <div className="">
+        //     <input
+        //       className="block p-1 border rounded border-emerald-600 text-black"
+        //       placeholder="Title"
+        //       type="text"
+        //       name="title"
+        //       id="title-input"
+        //       required
+        //       value={updatedAnimeOpening.title}
+        //       onChange={(e) =>
+        //         setUpdatedAnimeOpening({
+        //           ...updatedAnimeOpening,
+        //           title: e.target.value,
+        //         })
+        //       }
+        //     />
+        //     <input
+        //       className="block p-1 border rounded border-emerald-600 text-black"
+        //       placeholder="Artist"
+        //       type="text"
+        //       name="artist"
+        //       id="artist-input"
+        //       required
+        //       value={updatedAnimeOpening.artist}
+        //       onChange={(e) =>
+        //         setUpdatedAnimeOpening({
+        //           ...updatedAnimeOpening,
+        //           artist: e.target.value,
+        //         })
+        //       }
+        //     />
+        //     <input
+        //       className="block p-1 border rounded border-emerald-600 text-black"
+        //       placeholder="Anime"
+        //       type="text"
+        //       name="anime"
+        //       id="anime-input"
+        //       required
+        //       value={updatedAnimeOpening.anime}
+        //       onChange={(e) =>
+        //         setUpdatedAnimeOpening({
+        //           ...updatedAnimeOpening,
+        //           anime: e.target.value,
+        //         })
+        //       }
+        //     />
+        //     <input
+        //       className="block p-1 border rounded border-emerald-600 text-black"
+        //       placeholder="Rank"
+        //       type="number"
+        //       name="rank"
+        //       min={1}
+        //       required
+        //       value={updatedAnimeOpening.rank}
+        //       onChange={(e) =>
+        //         setUpdatedAnimeOpening({
+        //           ...updatedAnimeOpening,
+        //           rank: e.target.value,
+        //         })
+        //       }
+        //     />
+        //   </div>
+        //   <button
+        //     className="p-2 my-4 border rounded border-emerald-500 hover:bg-emerald-600"
+        //     type="submit"
+        //   >
+        //     Submit
+        //   </button>
+        // </form>
         <>
           <div>
             <p className="my-1">Title: {title}</p>
